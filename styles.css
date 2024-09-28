@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f4f4f4; /* White background */
+    font-family: Arial, sans-serif;
+    color: #004d40; /* Dark green color for text */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+
+.left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 80px;
+}
+
+.right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right img {
+    max-width: 70%; /* Increased logo size */
+    height: auto;
+}
+
+h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+    color: #004d40; /* Dark green for main title */
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 40px;
+    color: #004d40; /* Dark green for subtitle */
+}
+
+.external-signin {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 80%;
+    font-size: 16px;
+}
+
+button.google {
+    background-color: #004d40; /* University dark green */
+    color: white;
+}
+
+button.apple {
+    background-color: #333;
+    color: white;
+}
+
+button.create-account {
+    background-color: #009688; /* Lighter green */
+    color: white;
+}
+
+p {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #004d40;
+}
+
+a.signin-link {
+    color: #009688; /* Lighter green */
+    text-decoration: none;
+}
+
+a.signin-link:hover {
+    text-decoration: underline;
+}
+
+
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f4f4f4; /* White background */
+    font-family: Arial, sans-serif;
+    color: #004d40; /* Dark green text */
+    height: 100vh;
+    display: flex;
+    flex-direction: column; /* Changed to column layout */
+}
+
+/* Navigation Menu at the Top */
+nav {
+    background-color: #004d40; /* Dark green background */
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white; /* White text for nav links */
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Container for the Main Content */
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #004d40; /* Dark green title */
+}
+
+p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: #004d40;
+}
+
+/* Menu for Features */
+.menu {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.menu-item {
+    background-color: #e0f2f1; /* Lighter green background */
+    padding: 20px;
+    border-radius: 8px;
+    width: 30%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.menu-item:hover {
+    background-color: #004d40; /* Dark green hover effect */
+    color: white; /* Change text color on hover */
+}
+
+.menu-item h3 {
+    margin-bottom: 10px;
+    color: #004d40; /* Dark green title */
+}
+
+.menu-item p {
+    color: #004d40; /* Dark green text */
+}
